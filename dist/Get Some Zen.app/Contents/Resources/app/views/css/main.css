@@ -1,0 +1,71 @@
+* {
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica, sans-serif;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.title-bar {
+	margin-top: 10px;
+	width: 100vw;
+	text-align: center;
+	/*-webkit-app-region: drag;*/
+	font-size: 10pt;
+	overflow-x: hidden;
+	font-weight: 500;
+	z-index: 1000;
+	position: absolute;
+	top: 0;
+}
+/*.container {
+	width: 100vw;
+	height: 100vh;
+	z-index: 900;
+	margin: 0;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+	text-align: center;
+  	justify-content: center;
+
+}*/
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #1ad6fd 0%,#1d62f0 100%);
+  overflow: hidden;
+}
+.container {
+  font-family: -apple-system, BlinkMacSystemFont, 'San Francisco Display' , Roboto, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    cursor: default;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    font-weight: 100;
+    -webkit-app-region: drag;
+}
+.zen {
+  font-size: 3vw;
+  font-weight: 100;
+  text-align: center;
+}

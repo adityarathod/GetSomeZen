@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome to Mac</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100">
+    <script src="js/jquery.min.js"></script>
+    <script>
+    try {
+        $ = jQuery = module.exports;
+        // If you want module.exports to be empty, uncomment:
+        // module.exports = {};
+    } catch(e) {}
+</script>
+  <script src="js/main.js"></script>
+  </head>
+  <body>
+    <!-- <div class="title-bar">&nbsp;</div> -->
+    <div class="container"><div class="zen">Zen is loading...</div>
+</div>
+  
+  </body>
+  <script>
+    // You can also require other files to run in this process
+    require('../renderer.js')
+  </script>
+</html>
